@@ -1,11 +1,15 @@
 .filters {
-  background: white;
+  background: rgb(255, 255, 255);
   width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
 }
 .filters li {
   display: inline-block;
   max-width: 80px;
-  padding: 3px;
+  padding: 7px;
 }
 .filters li label {
   display: block;
@@ -25,7 +29,7 @@
   margin: 50px auto;
   background: #fff;
   border-radius: 5px;
-  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 25px rgba(11, 2, 134, 0.696);
 }
 .widget .cover {
   height: 160px;
@@ -44,7 +48,7 @@
   width: 100px;
   height: 100px;
   margin: 0 0 0 -55px;
-  border: 5px solid #fff;
+  border: 5px solid #00109c65;
   border-radius: 50%;
 }
 .widget h1,
@@ -68,9 +72,9 @@
 }
 .widget ul {
   position: absolute;
-  top: 20px;
+  top: 10px;
   padding: 0;
-  background: #2cdfd3;
+  background: #1d00a1;
 }
 .widget ul.position-left {
   left: -26px;
@@ -91,7 +95,7 @@
   transition: background-color 0.3s;
 }
 .widget ul li:hover > a {
-  background-color: #2cd5ca;
+  background-color: #158def;
 }
 .widget ul li:first-child > a {
   border-radius: 0 3px 0 0;
